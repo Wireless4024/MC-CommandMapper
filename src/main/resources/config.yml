@@ -1,0 +1,17 @@
+# structure
+#   version
+#   maping
+#     |-  <worldname>
+#             \- <command> : <to replace>
+# --- example ---
+# mapping:
+#   world:
+#     op: deop
+#     '?': say -
+# --------------
+# version don't change
+version: 0.1
+
+# world
+#   command : to command
+mapping: {}

@@ -1,0 +1,14 @@
+name: CommandMapper
+version: @version@
+main: com.wireless4024.mc.commandmapper.CommandMapper
+api-version: 1.16
+prefix: CommandMapper
+load: STARTUP
+depend: [ bukcore ]
+authors: [ Wireless4024 ]
+description: a plugin used to map command on specifict world
+commands:
+  cmap:
+    description: a core command for cmap
+    permission: CommandMapper.cmap
+    usage: /cmap [add, remove, reload]
